@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-number = 3.14159
- print("{:d} = 0x{:x}".format(number, number))
+for num in range(0, 99):
+    print("{:d} = 0x{:x}".format(num, num))
+
