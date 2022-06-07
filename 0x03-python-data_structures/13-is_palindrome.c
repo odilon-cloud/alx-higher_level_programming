@@ -77,7 +77,7 @@ int is_palindrome(listint_t **head)
 
 	slow = fast = prev_slow = *head;
 	middle = NULL;
-	is = 1;
+	isp = 1;
 
 	if (*head != NULL && (*head)->next != NULL)
 	{
@@ -97,7 +97,7 @@ int is_palindrome(listint_t **head)
 		scn_half = slow;
 		prev_slow->next = NULL;
 		reverse(&scn_half);
-		is = compare(*head, scn_half);
+		isp = compare(*head, scn_half);
 
 		if (middle != NULL)
 		{
@@ -110,5 +110,5 @@ int is_palindrome(listint_t **head)
 		}
 	}
 
-	return (is);
+	return (isp);
 }
