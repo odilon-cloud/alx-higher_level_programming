@@ -28,15 +28,13 @@ At the end of this project, I was able to solve these questions:
 ## Additional info :construction:
 ### Resources
 
-- GLIBC 2.24
 - gcc 4.8.4
 - betty linter 0.32
 - Python 3.5
-- PEP 8 1.7
 
 ### Try It On Your Machine :computer:	
 ```bash
-git clone https://github.com/edward0rtiz/holbertonschool-higher_level_programming.git
+git clone https://github.com/odilon-cloud/alx-higher_level_programming.git
 cd 0x05-python-exceptions
 FOR PYTHON SCRIPTS
 ./FILENAME.py
