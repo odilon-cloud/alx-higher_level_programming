@@ -19,4 +19,3 @@ class Square:
     def area(self):
         """Summary line for a class docstring should fit on one line."""
         return (self.__size * self.__size)
-
