@@ -57,7 +57,7 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-        rect = []
+        rectangle = []
         for i in range(self.__height):
             [rectangle.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
