@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# 8-rectangle.py
-# Carlos Barros <1543@holbertonschool.com>
+
 """ File name : 8-rectangle.py
     Compare rectangles
     It is not allowed to import any module
