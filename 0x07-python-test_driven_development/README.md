@@ -27,7 +27,7 @@ At the end of this project, I was able to solve these questions:
 ## Additional info :construction:
 ### Resources
 
-- Python 3.5
+- Python 3
 - PEP 8 1.7
 
 ### Try It On Your Machine :computer:	
