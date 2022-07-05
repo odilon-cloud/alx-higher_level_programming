@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-""" File name : 2-is_same_class.py
-    It is not allowed to import any module
-"""
+"""The ``is_kind_of_class`` module"""
 
 
-def is_same_class(obj, a_class):
-    """Define if a obj is instance of class"""
-    if isinstance(obj, a_class):
-        return True
-    return False
+def is_kind_of_class(obj, a_class):
+    """Returns True if the object is an instance of class, inherited"""
+
+    return isinstance(obj, a_class)
+
