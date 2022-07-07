@@ -107,7 +107,7 @@ Prototypes for functions written in this project:
 Git clone the repository:
 
 ```
-git clone https://github.com/cbarros7/holbertonschool-higher_level_programming.git
+git clone https://github.com/odilon-cloud/alx-higher_level_programming.git
 ```
 
 ## Bugs :loudspeaker:
