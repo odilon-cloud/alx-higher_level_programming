@@ -1,6 +1,4 @@
 #!/usr/bin/node
-'use strict';
-
 function factorial (a) {
   if (a <= 1) {
     return (1);
