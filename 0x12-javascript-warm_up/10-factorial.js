@@ -1,14 +1,7 @@
 #!/usr/bin/node
-function factorial (a) {
-  if (a <= 1) {
-    return (1);
-  }
-  return (a * factorial(a - 1));
+#!/usr/bin/node
+function factorial (n) {
+  return n === 0 || isNaN(n) ? 1 : n * factorial(n - 1);
 }
 
-let a = Math.floor(process.argv[2]);
-if (isNaN(a)) {
-  console.log(1);
-} else {
-  console.log(factorial(a));
-}
+console.log(factorial(Number(process.argv[2])));
