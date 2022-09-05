@@ -1,5 +1,4 @@
 #!/usr/bin/node
-'use strict';
-for (const line of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
-  console.log(line);
+for (const val of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
+  console.log(val);
 }
